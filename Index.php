@@ -1,4 +1,3 @@
-<?php
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,9 +40,6 @@
 
 
 
-//require "Header.php";
-
-
 <!-- Main Starts -->
 
 <main class="content-control">
@@ -81,8 +77,11 @@
 
 
 </main>
-<!-- Main Ends -->
+<!-- Main
+
+require "Header.php";
+
+ Ends -->
 
 </body>
 </html>
-?>
