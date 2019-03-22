@@ -47,10 +47,11 @@
     <section class="boxregister">
         <!--Section 1 DESCRIPTION-->
         <section id="AppDescription" class="grid-100">
-            <h2> Making it easier to find people around you to organize and play your sport </h2>
-            <p> QUICK PLAYs
+            <h2> HOla jonas
+                Making it easier to find people around you to organize and play your sport  </h2>
+            <p> QUICK PLAYs</p>
 
-            </p> </section><br><br>
+        </section><br><br>
     </section>
     <form id="register" method="post" action="register.php" >
 
