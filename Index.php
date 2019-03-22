@@ -1,3 +1,4 @@
+<?php
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,9 +39,9 @@
     </style>
 </head>
 
-<?php
-require "Header.php";
-?>
+
+
+//require "Header.php";
 
 
 <!-- Main Starts -->
@@ -84,3 +85,4 @@ require "Header.php";
 
 </body>
 </html>
+?>
