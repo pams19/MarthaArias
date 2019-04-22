@@ -1,0 +1,142 @@
+/*body{
+    background-color: black;
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("images2/profile.jpg");
+}*/
+
+body {
+    background-color: whitesmoke;
+}
+ .form h2{
+    color: whitesmoke;
+}
+
+.form{
+    border: 2px solid white;
+    width: 600px;
+    text-align: center;
+    margin: 150px auto; /* 150px below, auto aligns form to the center */
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 15px turquoise;
+}
+label{
+    float: left;
+    width: 150px;
+    text-align: right;
+    padding-right: 12px;
+    margin-top: 14px;
+    clear: left;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.inputbox{
+    text-align: center;
+    font-size: 18px;
+    border: none; /*removes box border*/
+    outline: none; /* removes outline */
+    height: 35px;
+    background: transparent; /* removes color from the box */
+    color: white;
+    border-bottom: 3px solid turquoise;
+    border-radius: 10px;
+    width: 400px;
+}
+.inputbox:focus{
+    border-bottom: 3px solid whitesmoke;
+}
+::placeholder{
+    color: white;
+}
+.btn{
+    background: turquoise;
+    color: white;
+    border: none;
+    margin: 15px; /* separates btn box from box above*/
+    font-size: 20px;
+    padding: 8px 35px; /* This will provide padding/space around the btn. Top & btm 8px, 35px left & right sides */
+    border-radius: 50px;
+}
+.btn:hover{
+    background-color: #4d444d;
+    box-shadow: 0 0 15px turquoise;
+}
+.footer-control{
+    background: black;
+    text-align: center;
+    color: white;
+    position: absolute;
+}
+
+/*Styling for Sign Up page*/
+.control{
+    position: center;
+    color: white;
+    z-index: 7;
+    font-family: Verdana;
+}
+.header-label{
+    left: 100px;
+    height: 50px;
+    width: 110px;
+    top: 25px;
+}
+.form h3{
+    color: white;
+    font-size: 2em;
+}
+#AppDescription h2 {
+    color: whitesmoke;
+    width: 400px;
+}
+
+/*Styling for headerloggedIn */
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    position: center;
+
+}
+
+ul li {
+    float: left;
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 15px;
+}
+
+ul li a {
+    text-decoration: none;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 30px;
+    border-bottom-color: black;
+    border-bottom-width: 10px;
+
+    text-emphasis: deepskyblue;
+
+}
+/*
+ul li a:hover {
+    background-color: dodgerblue;
+
+}
+*/
+.menu-area {
+            color: #ffffff;
+            line-height: 40px;
+            padding: 10px 15px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+

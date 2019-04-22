@@ -1,0 +1,524 @@
+/*@import "templatecolours.css";*/
+
+
+body{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+
+
+header{
+    background-color: black;
+}
+main{
+    background-color: white;
+}
+
+/*
+section{
+    background-color: orange;
+}
+aside{
+    background-color: yellow;
+}
+article{
+    background-color: purple;
+}
+
+
+*/
+
+/* NAVIGATION BAR CSS  quite nav antes*/
+
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+ul li {
+    float: left;
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 15px;
+}
+
+ul li a {
+    text-decoration: none;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 30px;
+    border-bottom-color: black;
+    border-bottom-width: 10px;
+
+    text-emphasis: deepskyblue;
+
+}
+
+ul li a:hover {
+   background-color: dodgerblue;
+
+}
+ul li ul li{
+    display: none;
+
+}
+
+/* IMAGE SIZING CSS */
+
+#Sportlogo
+{
+    width:100px;
+
+
+}
+
+#Sportbanner
+{
+
+    -webkit-justify-content: center;
+
+}
+
+
+ #Sportapp
+{
+     width: 300px;
+     float:left;
+     padding-right: 10px;
+     align-items: center;
+}
+
+/* TEXT STYLING CSS */
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+
+}
+
+p, h2, h4, label, input, h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+h3, h4, h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+/* COLOURINGS CSS */
+
+#quicklinks{
+    background-color: #363636;
+    }
+#login{
+    border-top-color: #782A7E;
+    -webkit-justify-content: center;
+    background-color: #363636;
+}
+#register{
+    border:  #782A7E;
+    border-top-color: #782A7E;
+
+}
+
+footer{
+    background-color: #363636;
+}
+
+aside p, h3, h4 {
+    color: white;
+}
+
+
+/* MARGIN FIXES */
+
+aside p, h3, h4{
+    margin: 0;
+}
+
+aside h3{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+aside h4{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+aside p{
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+aside {
+    padding-right: 0px !important;
+    margin-top: -5px !important;
+}
+
+main{
+ padding-right: 0px !important;
+}
+
+
+
+/* FONT SIZES*/
+
+h1{
+    font-size: 22px;
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 16px;
+}
+h4{
+    font-size: 14px;
+}
+p{
+    font-size: 13px;
+}
+a{
+    font-size: 13px;
+}
+label{
+    font-size: 16px;
+}
+
+/* Styling for User Page/HomePage  */
+
+}
+/*.wrap{
+    width: 800px;
+    height: 400px;
+    margin: auto;
+    background: white;
+    padding: 20px 50px;
+}*/
+@keyframes slider {
+    0% {left: 0;}
+    20% {left: 0;}
+    25% {left: -100%;}
+    45% {left: -100%;}
+    50% {left: -200%;}
+    70% {left: -200%;}
+    75% {left: -300%;}
+    95% {left: -300%;}
+    100% {left: -400%;}
+}
+
+/* For Chrome*/
+@-webkit-keyframes slider {
+    0% {left: 0;}
+    20% {left: 0;}
+    25% {left: -100%;}
+    45% {left: -100%;}
+    50% {left: -200%;}
+    70% {left: -200%;}
+    75% {left: -300%;}
+    95% {left: -300%;}
+    100% {left: -400%;}
+}
+
+/* For Firefox */
+@-moz-keyframes slider {
+    0% {left: 0;}
+    20% {left: 0;}
+    25% {left: -100%;}
+    45% {left: -100%;}
+    50% {left: -200%;}
+    70% {left: -200%;}
+    75% {left: -300%;}
+    95% {left: -300%;}
+    100% {left: -400%;}
+}
+
+.image-slider{
+    overflow: hidden;
+}
+
+.image-slider figure{
+    position: relative;
+    width: 900%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+    -webkit-animation: 20s slider infinite;
+    -moz-animation: 20s slider infinite;
+}
+
+.image-slider figure img{
+    width: 20%;
+    float: left;
+}
+.fourcolumn{
+    width: 1000px;
+    position: relative;
+    top: 70%;
+    float: left;
+    /*transform: translate(-50%,-50%);*/
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.fourcolumn img{
+    margin-right: 10px;
+    margin-bottom: 5px;
+    flex-wrap: nowrap;
+}
+
+.available-sports h2{
+    background: black;
+    text-align: center;
+    color: white;
+    border: 1px solid black;
+    font-size: 18px;
+    font-weight: bold;
+}
+.fourcolumn p{
+    color: white;
+}
+
+/* Styling for Profile.php */
+.profilebakground{
+            background: #95a5a6;
+        }
+
+        .profileform h2{
+            color: white;
+        }
+        .profileform{
+            border: 2px solid white;
+            width: 600px;
+            text-align: center;
+            margin: 150px auto; /* 150px below, auto aligns form to the center */
+            background-color: rgba(0,0,0,0.5);
+            border-radius: 10px;
+            box-shadow: 0 0 15px turquoise;
+        }
+        .profileinputbox{
+            text-align: center;
+            font-size: 18px;
+            border: none; /*removes box border*/
+            outline: none; /* removes outline */
+            height: 35px;
+            background: transparent; /* removes color from the box */
+            color: white;
+            border-bottom: 3px solid turquoise;
+            border-radius: 10px;
+            width: 400px;
+        }
+        .profileinputbox:focus{
+            border-bottom: 3px solid whitesmoke;
+        }
+        ::placeholder{
+            color: white;
+        }
+        .profilebtn{
+            background: turquoise;
+            color: white;
+            border: none;
+            margin: 15px; /* separates btn box from box above*/
+            font-size: 20px;
+            padding: 8px 35px; /* This will provide padding/space around the btn. Top & btm 8px, 35px left & right sides */
+            border-radius: 50px;
+        }
+        .profilebtn:hover{
+            background-color: #4d444d;
+            box-shadow: 0 0 15px turquoise;
+        }
+/* Styling for Event Page */
+
+.evntbakground{
+            background: darkgray url("Images/sports.jpg") no-repeat scroll top left;
+            background-size: cover;
+        }
+
+        .eventform{
+            border: 2px solid white;
+            width: 600px;
+            text-align: center;
+            margin: 150px auto; /* 150px below, auto aligns form to the center */
+            background-color: rgba(0,0,0,0.5);
+            border-radius: 10px;
+            box-shadow: 0 0 15px turquoise;
+        }
+        .eventform h2{
+            color: white;
+        }
+        .inputbox{
+            text-align: center;
+            font-size: 18px;
+            border: none; /*removes box border*/
+            outline: none; /* removes outline */
+            height: 35px;
+            background: transparent; /* removes color from the box */
+            color: white;
+            border-bottom: 3px solid turquoise;
+            border-radius: 10px;
+            width: 400px;
+        }
+        .inputbox:focus{
+            border-bottom: 3px solid whitesmoke;
+        }
+        ::placeholder{
+            color: white;
+        }
+        .eventbtn{
+            background: turquoise;
+            color: white;
+            border: none;
+            margin: 15px; /* separates btn box from box above*/
+            font-size: 20px;
+            padding: 8px 35px; /* This will provide padding/space around the btn. Top & btm 8px, 35px left & right sides */
+            border-radius: 50px;
+        }
+        .eventbtn:hover{
+            background-color: #4d444d;
+            box-shadow: 0 0 15px turquoise;
+        }
+/* Styling for Sign Up Page */
+.control{
+    background-color: #363636;
+    width: 100%;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    width: 280px;
+    height: 60px;
+    font-family: Ebrima;
+    color: #ecf1f4;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    padding-left: 20px;
+}
+.login{
+    float: right;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: white;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding-right: 20px;
+}
+.right{
+    float: right;
+    font-family: Arial, sans-serif;
+
+}
+.left h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.grid-60{
+    margin-left: 10px;
+    margin-top: -0px;
+    background-color: dimgray;
+    width: 10px;
+    position: relative;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: #782A7E;
+
+
+}
+
+.grid-60 h2{
+    color: white;
+    text-align: center;
+}
+/* Style for 111.html form label*/
+label{
+    float: left;
+    width: 150px;
+    text-align: right;
+    padding-right: 12px;
+    margin-top: 14px;
+    clear: left;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* Styling for 111 <input>*/
+.grid-60 input{
+    margin-top: 12px;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    height: 35px;
+    border-radius: 20px;
+
+}
+/* Styling the submit button in 111*/
+#submit{
+    margin-left: 150px;
+    padding: 15px;
+}
+
+
+/* FOOTER*/
+/*.footercontrol{
+    margin-bottom: 0;
+    position: static;
+}*/
+
+footer>p{
+    width: 150px;
+    margin: auto;
+    color: white;
+}
+
+.cat_links {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid lightskyblue;
+    margin-bottom: 5px;
+    background-color: white;
+    color: #000000;
+    text-align: left;
+}
+.edate {
+    text-align: right;
+    color: lightskyblue;
+    font-size: 10px;
+}
+
+.editevent {
+    background-color: #95a5a6;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding-bottom: 15px;
+    border: #782A7E;
+}
