@@ -191,12 +191,11 @@ if(isset($_SESSION['username'])) {
 
     <!--END SERVICES-->
 
-    <!-- rfeqrf-->
     <section class="ftco-section">
         <div class="container">
             <div class="row justify-content-center mb-5 pb-3">
                 <div class="col-md-7 heading-section ftco-animate text-center">
-                    <h2 class="mb-4">¿Qué hacemos?</h2>
+                    <h2 class="mb-4"> ¿Qué hacemos?</h2>
                     <p class="flip"><span class="deg1"></span><span class="deg2"></span><span class="deg3"></span></p>
                     <p class="mt-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                 </div>
@@ -208,7 +207,7 @@ if(isset($_SESSION['username'])) {
                     <div class="services-wrap d-flex">
                         <a href="#" class="img" style="background-image: url(images/work-1.jpg);"></a>
                         <div class="text p-4">
-                            <h3>Hair Style </h3>
+                            <h3> Coloraciones </h3>
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia </p>
                             <span><a href="#">Read more</a></span>
                         </div>
@@ -218,7 +217,7 @@ if(isset($_SESSION['username'])) {
                     <div class="services-wrap d-flex">
                         <a href="#" class="img" style="background-image: url(images/work-2.jpg);"></a>
                         <div class="text p-4">
-                            <h3>Trimming</h3>
+                            <h3>Peinado Y Maquillaje</h3>
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
                             <span><a href="#">Read more</a></span>
                         </div>
@@ -228,7 +227,7 @@ if(isset($_SESSION['username'])) {
                     <div class="services-wrap d-flex">
                         <a href="#" class="img" style="background-image: url(images/work-3.jpg);"></a>
                         <div class="text p-4">
-                            <h3>Traditional Haircuts Mens </h3>
+                            <h3>Uñas</h3>
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
                             <span><a href="#">Read more</a></span>
                         </div>
@@ -239,7 +238,7 @@ if(isset($_SESSION['username'])) {
                     <div class="services-wrap d-flex">
                         <a href="#" class="img order-md-last" style="background-image: url(images/work-4.jpg);"></a>
                         <div class="text p-4">
-                            <h3>Hair Style for Womens</h3>
+                            <h3>Depilaciones</h3>
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia </p>
                             <span><a href="#">Read more</a></span>
                         </div>
@@ -249,7 +248,7 @@ if(isset($_SESSION['username'])) {
                     <div class="services-wrap d-flex">
                         <a href="#" class="img order-md-last" style="background-image: url(images/work-5.jpg);"></a>
                         <div class="text p-4">
-                            <h3>Trimming </h3>
+                            <h3>Depilaciones</h3>
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
                             <span><a href="#">Read more</a></span>
                         </div>
@@ -259,7 +258,7 @@ if(isset($_SESSION['username'])) {
                     <div class="services-wrap d-flex">
                         <a href="#" class="img order-md-last" style="background-image: url(images/work-6.jpg);"></a>
                         <div class="text p-4">
-                            <h3>Traditional Haircuts Mens </h3>
+                            <h3>Cortes Dama y caballeros</h3>
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
                             <span><a href="#">Read more</a></span>
                         </div>
@@ -271,47 +270,47 @@ if(isset($_SESSION['username'])) {
         <div class="container">
             <div class="row justify-content-center mb-5 pb-3 mt-5 pt-5">
                 <div class="col-md-7 heading-section text-center ftco-animate">
-                    <h2 class="mb-4">Plan &amp; Pricing</h2>
+                    <h2 class="mb-4">Servicios &amp; Costos</h2>
                     <p class="flip"><span class="deg1"></span><span class="deg2"></span><span class="deg3"></span></p>
-                    <p class="mt-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <p class="mt-5">En Martha Arias no solo nos preocupamos por darte un ben servicio, si no que además te ayudamos a encontrar el estilo de corte o tratamiento ideal para ti ...</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6">
                     <div class="pricing-entry ftco-animate">
                         <div class="d-flex text align-items-center">
-                            <h3><span>Men's Haircut</span></h3>
-                            <span class="price">$20.00</span>
+                            <h3><span>Corte caballeros</span></h3>
+                            <span class="price"> desde $70.00</span>
                         </div>
                         <div class="d-block">
-                            <p>A small river named Duden flows by their place and supplies</p>
+                            <p> Opciones de look, corte y peinado</p>
                         </div>
                     </div>
                     <div class="pricing-entry ftco-animate">
                         <div class="d-flex text align-items-center">
-                            <h3><span>Children Haircut</span></h3>
-                            <span class="price">$29.00</span>
+                            <h3><span>Corte niños</span></h3>
+                            <span class="price">desde $50.00</span>
                         </div>
                         <div class="d-block">
-                            <p>A small river named Duden flows by their place and supplies</p>
+                            <p>Opciones de look, corte y peinado<</p>
                         </div>
                     </div>
                     <div class="pricing-entry ftco-animate">
                         <div class="d-flex text align-items-center">
-                            <h3><span>Beard Cut</span></h3>
-                            <span class="price">$20.00</span>
+                            <h3><span>Corte damas</span></h3>
+                            <span class="price"> desde $70.00</span>
                         </div>
                         <div class="d-block">
-                            <p>A small river named Duden flows by their place and supplies</p>
+                            <p>Opciones de look, corte, lavado y peinado de cabellera</p>
                         </div>
                     </div>
                     <div class="pricing-entry ftco-animate">
                         <div class="d-flex text align-items-center">
-                            <h3><span>Men's Haircut</span></h3>
-                            <span class="price">$20.00</span>
+                            <h3><span>Tintes</span></h3>
+                            <span class="price">desde $200.00</span>
                         </div>
                         <div class="d-block">
-                            <p>A small river named Duden flows by their place and supplies</p>
+                            <p>Opciones de look, corte, lavado y peinado express</p>
                         </div>
                     </div>
                 </div>
@@ -319,47 +318,45 @@ if(isset($_SESSION['username'])) {
                 <div class="col-md-6">
                     <div class="pricing-entry ftco-animate">
                         <div class="d-flex text align-items-center">
-                            <h3><span>Women's Haircut</span></h3>
-                            <span class="price">$49.91</span>
+                            <h3><span>Alaciados y ondas</span></h3>
+                            <span class="price">desde $120.00</span>
                         </div>
                         <div class="d-block">
-                            <p>A small river named Duden flows by their place and supplies</p>
+                            <p>Utilizamos productos de calidad que aseguren la salud de tu cabello</p>
                         </div>
                     </div>
                     <div class="pricing-entry ftco-animate">
                         <div class="d-flex text align-items-center">
-                            <h3><span>Men's Haircut</span></h3>
-                            <span class="price">$20.00</span>
+                            <h3><span>Manicure y Pedicure</span></h3>
+                            <span class="price">desde $150.00</span>
                         </div>
                         <div class="d-block">
-                            <p>A small river named Duden flows by their place and supplies</p>
+                            <p>Servicio con productos de alta gama de calidad</p>
                         </div>
                     </div>
                     <div class="pricing-entry ftco-animate">
                         <div class="d-flex text align-items-center">
-                            <h3><span>Men's Haircut</span></h3>
-                            <span class="price">$20.00</span>
+                            <h3><span>Uñas</span></h3>
+                            <span class="price">desde $100.00</span>
                         </div>
                         <div class="d-block">
-                            <p>A small river named Duden flows by their place and supplies</p>
+                            <p>Uñas acrilico, gelish, esculturales, sellos etc..</p>
                         </div>
                     </div>
                     <div class="pricing-entry ftco-animate">
                         <div class="d-flex text align-items-center">
-                            <h3><span>Men's Haircut</span></h3>
-                            <span class="price">$20.00</span>
+                            <h3><span>Depilaciones</span></h3>
+                            <span class="price">desde $50.00</span>
                         </div>
                         <div class="d-block">
-                            <p>A small river named Duden flows by their place and supplies</p>
+                            <p> Productos de calidad para asegurar la salud de tu piel, Depilaciones de bigote, axila, patilla, cara y piernas</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-
-    <!--END  rfeqrf-->
+    <!--TRABAJOS-->
 
 
     <!-- DISCOUNTS -->

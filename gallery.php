@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 	<html lang="en">
 	  <head>
-	    <title>Trim - Free Bootstrap 4 Template by Colorlib</title>
+	    <title>Martha Arias</title>
 	    <meta charset="utf-8">
 	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	    
@@ -41,8 +41,8 @@
 	      <div class="container">
 	        <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
 	          <div class="col-md-6 text-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-	          	<h1 class="mb-3 mt-5 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Gallery</h1>
-	            <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="index.html">Home</a></span> <span>Gallery</span></p>
+	          	<h1 class="mb-3 mt-5 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Galeria</h1>
+	            <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="index.html">Inicio</a></span> <span>Galeria</span></p>
 	          </div>
 	        </div>
 	      </div>
@@ -52,9 +52,9 @@
 	    	<div class="container">
 	    		<div class="row justify-content-center mb-5 pb-3">
 	          <div class="col-md-7 heading-section ftco-animate text-center">
-	            <h2 class="mb-4">Our Gallery</h2>
+	            <h2 class="mb-4">Nuestras instalaciones</h2>
 	            <p class="flip"><span class="deg1"></span><span class="deg2"></span><span class="deg3"></span></p>
-	            <p class="mt-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+
 	          </div>
 	        </div>
 	    	</div>
